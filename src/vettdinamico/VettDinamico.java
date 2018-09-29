@@ -34,6 +34,13 @@ class VettoreDinamico {
         }
         vettore[lungDinamica++] = d;
     }
+    
+    public Double getFirst() {
+        if (vettore.length>0) 
+            return vettore[0];
+        else 
+            return null;
+    }
 
     public String toString() {
         String str = "Il vettore dinamico:\n";
